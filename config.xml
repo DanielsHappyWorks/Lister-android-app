@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.daniel.happy.works.lister" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Lister</name>
+    <description>
+        This app stores categorised lists to help users remember what they need.
+    </description>
+    <author email="daniel.foth@hotmail.com" href="https://github.com/DanielsHappyWorks">
+        DanielsHappyWorks
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="27"/>
+    <platform name="android">
+        <icon density="ldpi" src="www/img/logo.png" />
+        <icon density="mdpi" src="www/img/logo.png" />
+        <icon density="hdpi" src="www/img/logo.png" />
+        <icon density="xhdpi" src="www/img/logo.png" />
+        <icon density="xxhdpi" src="www/img/logo.png" />
+        <icon density="xxxhdpi" src="www/img/logo.png" />
+        <splash density="land-ldpi" src="www/img/logo.png" />
+        <splash density="land-mdpi" src="www/img/logo.png" />
+        <splash density="land-hdpi" src="www/img/logo.png" />
+        <splash density="land-xhdpi" src="www/img/logo.png" />
+        <splash density="land-xxhdpi" src="www/img/logo.png" />
+        <splash density="land-xxxhdpi" src="www/img/logo.png" />
+        <splash density="port-ldpi" src="www/img/logo.png" />
+        <splash density="port-mdpi" src="www/img/logo.png" />
+        <splash density="port-hdpi" src="www/img/logo.png" />
+        <splash density="port-xhdpi" src="www/img/logo.png" />
+        <splash density="port-xxhdpi" src="www/img/logo.png" />
+        <splash density="port-xxxhdpi" src="www/img/logo.png" />
+    </platform>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+</widget>

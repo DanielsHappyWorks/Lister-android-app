@@ -1,0 +1,150 @@
+
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.header-text {
+    margin: 0px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 25px;
+}
+
+.app {
+    margin: 50px 0px 110px 0px;
+    padding: 0px;
+}
+
+.fixed-bot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 85%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .collapsible-del {
+    background-color: rgb(236, 116, 116);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 15%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    float: right;
+  }
+
+  .list {
+    overflow-wrap: break-word;
+    padding: 10px;
+    background: whitesmoke;
+  }
+
+  .list-btn {
+      float: right;
+    background-color: rgb(236, 116, 116);
+    color: #444;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .collapsible-del:hover {
+    background-color: rgb(214, 109, 109);
+  }
+
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+  .content {
+    width: 85%;
+    display: none;
+    overflow: hidden;
+  }
+
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .add-fixed {
+    background-color: #444;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 18px;
+  }
+
+  .add {
+    background: whitesmoke;
+    bottom: 45px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  input[type=text] {
+    border: 2px solid black;
+    border-radius: 5px;  
+}
+
+.myButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

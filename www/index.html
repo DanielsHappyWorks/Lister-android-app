@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lister</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav class="header fixed-top">
+        <h1 class="header-text" >Lister</h1>
+    </nav>
+
+    <div class="app" id="content"></div>
+
+    <div class="add-fixed">
+        <center>
+        <input id='CFTYSXUABUXTFEDYAGNJIXIAJOMJXKAHUISDHGYTFAVF_cat_input' placeholder="Add Category" type="text">
+        <button class="myButton" onclick="app.addToCategories(document.getElementById('CFTYSXUABUXTFEDYAGNJIXIAJOMJXKAHUISDHGYTFAVF_cat_input').value)">Add</button class="myButton">
+        </center>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
